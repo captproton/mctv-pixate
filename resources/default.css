@@ -1,3 +1,17 @@
 #basics-view {
   background-color: linear-gradient(#BB9C3E, #f9d712);
 }
+
+button {
+  background-color: #192D4D;
+  border-radius: 15px;
+  box-shadow: -1px 1px 1px 5px;
+  color: white;
+  border-width: 1px;
+  border-color: white;
+}
+
+.text {
+  color: #8E2F31;
+  font-weight: bold;
+}
