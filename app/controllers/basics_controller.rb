@@ -18,6 +18,7 @@ class BasicsController < UIViewController
 
     @progress = UIProgressView.alloc.initWithProgressViewStyle(UIProgressViewStyleDefault)
     @progress.frame = [[margin, 280], [view.frame.size.width - margin * 2, 40]]
+    view.styleId = "basics-view"
     view.addSubview(@progress)
   end
 
