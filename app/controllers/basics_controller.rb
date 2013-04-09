@@ -17,15 +17,11 @@ class BasicsController < UIViewController
     @button.frame = [[margin, 160], [view.frame.size.width - margin * 2, 40]]
     view.addSubview(@button)
 
-    @progress = UIProgressView.alloc.initWithProgressViewStyle(UIProgressViewStyleDefault)
-    @progress.frame = [[margin, 280], [view.frame.size.width - margin * 2, 40]]
     view.styleId = "basics-view"
-    view.addSubview(@progress)
   end
 
   private
   def tapped
-    @progress.setProgress(@progress.progress + 0.1)
     @label.text = "You tapped the button"
   end
 end
