@@ -7,6 +7,10 @@ class AppDelegate
     @window.rootViewController = tabbar #UINavigationController.alloc.initWithRootViewController(tabbar)
     @window.rootViewController.wantsFullScreenLayout = true
     @window.makeKeyAndVisible
+
+    PXStylesheet.currentApplicationStylesheet.monitorChanges = true
+    puts "Find the css at #{PXStylesheet.currentApplicationStylesheet.filePath}"
+
     true
   end
 end
