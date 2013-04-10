@@ -1,4 +1,11 @@
 class BasicsController < UIViewController
+  def init
+    super.tap do |me|
+      self.tabBarItem = UITabBarItem.alloc.initWithTitle(nil, image:nil, tag:0)
+      self.tabBarItem.styleId = "basic-tab-item"
+    end
+  end
+
   def viewDidLoad
     margin = 10
     @label = UILabel.new

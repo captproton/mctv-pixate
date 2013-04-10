@@ -1,10 +1,10 @@
 class ListController < UITableViewController
-  # def init
-  #   if super
-  #     self.tabBarItem = UITabBarItem.alloc.initWithTitle('List', image:UIImage.imageNamed('list.png'), tag:1)
-  #   end
-  #   self
-  # end
+def init
+    super.tap do |me|
+      self.tabBarItem = UITabBarItem.alloc.initWithTitle(nil, image:nil, tag:0)
+      self.tabBarItem.styleId = "list-tab-item"
+    end
+  end
 
   def viewDidLoad
     @items = (1..99).map{|n| "item #{n}"}

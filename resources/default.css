@@ -16,3 +16,20 @@ button {
   font-weight: bold;
   font-size: 25px;
 }
+
+tab-bar {
+    color: #8E2F31;
+    selected-color: white;
+    background-color: #8E2F31;
+}
+
+#basic-tab-item {
+  text: "Basic views";
+  background-image: url(cog_01.png);
+}
+
+
+#list-tab-item {
+  text: "List";
+  background-image: url(cog_02.png);
+}
