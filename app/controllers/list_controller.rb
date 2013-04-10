@@ -19,7 +19,6 @@ def init
   def tableView(tableView, cellForRowAtIndexPath:indexPath)
     cell = tableView.dequeueReusableCellWithIdentifier(CELLID) || begin
       cell = UITableViewCell.alloc.initWithStyle(UITableViewCellStyleDefault, reuseIdentifier:CELLID)
-      cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton
       cell
     end
 

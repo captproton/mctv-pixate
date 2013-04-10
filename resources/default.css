@@ -33,3 +33,18 @@ tab-bar {
   text: "List";
   background-image: url(cog_02.png);
 }
+
+table-view {
+  background-color: #192D4D;
+}
+
+table-view-cell:selected {
+  background-color: #BB9C3E;
+  color: white;
+}
+
+table-view-cell label {
+  color: #BB9C3E;
+  background-color: #192D4D;
+  margin-left: 10px;
+}
