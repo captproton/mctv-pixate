@@ -1,50 +1,38 @@
 #basics-view {
-  background-color: linear-gradient(#BB9C3E, #f9d712);
-}
+  background-color: linear-gradient(#bb9c3e, #f9d712); }
 
 button {
-  background-color: #192D4D;
+  background-color: #192d4d;
   border-radius: 15px;
   box-shadow: -1px 1px 1px 5px;
   color: white;
   border-width: 1px;
-  border-color: white;
-}
+  border-color: white; }
 
 .text {
   color: #8E2F31;
   font-weight: bold;
-  font-size: 25px;
-}
+  font-size: 25px; }
 
 tab-bar {
-    color: #8E2F31;
-    selected-color: white;
-    background-color: #8E2F31;
-}
+  color: #8E2F31;
+  selected-color: white;
+  background-color: #8E2F31; }
 
 #basic-tab-item {
   text: "Basic views";
-  background-image: url(cog_01.png);
-}
-
+  background-image: url(cog_01.png); }
 
 #list-tab-item {
   text: "List";
-  background-image: url(cog_02.png);
-}
+  background-image: url(cog_02.png); }
 
 table-view {
-  background-color: #192D4D;
-}
-
-table-view-cell:selected {
-  background-color: #BB9C3E;
-  color: white;
-}
+  background-color: #192d4d; }
 
 table-view-cell label {
-  color: #BB9C3E;
-  background-color: #192D4D;
-  margin-left: 10px;
-}
+  color: #bb9c3e; }
+
+table-view-cell:selected {
+  background-color: #bb9c3e;
+  color: white; }

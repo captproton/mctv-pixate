@@ -1,0 +1,54 @@
+$light-yellow: #f9d712;
+$yellow: #BB9C3E;
+$blue: #192D4D;
+
+#basics-view {
+  background-color: linear-gradient($yellow, $light-yellow);
+}
+
+button {
+  background-color: $blue;
+  border-radius: 15px;
+  box-shadow: -1px 1px 1px 5px;
+  color: white;
+  border-width: 1px;
+  border-color: white;
+}
+
+.text {
+  color: #8E2F31;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+tab-bar {
+    color: #8E2F31;
+    selected-color: white;
+    background-color: #8E2F31;
+}
+
+#basic-tab-item {
+  text: "Basic views";
+  background-image: url(cog_01.png);
+}
+
+
+#list-tab-item {
+  text: "List";
+  background-image: url(cog_02.png);
+}
+
+table-view {
+  background-color: $blue;
+}
+
+table-view-cell {
+  label {
+    color: $yellow;
+  }
+}
+table-view-cell:selected {
+  background-color: $yellow;
+  color: white;
+}
+
